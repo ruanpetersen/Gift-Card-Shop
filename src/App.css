@@ -1,0 +1,310 @@
+body {
+  background: crimson;
+}
+
+h6 {
+  margin: 15px;
+}
+
+.App {
+  text-align: center;
+}
+
+a {
+  background: #ffd092;
+  border: 2px solid #fff;
+  font-size: 18px;
+  color: #dc143c;
+  border-radius: 35px;
+  margin: 0 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.App-header {
+  background-color: #ffd092;
+  padding: 20px;
+  color: crimson;
+  background:
+  radial-gradient(circle at 0% 50%, #fff 9px, #ffd092 10px, rgba(96, 16, 48, 0) 11px) 0px 10px,
+  radial-gradient(at 100% 100%,      #fff 9px, #ffd092 10px, #fff 11px),
+  #8a3;
+  background-size: 20px 20px;
+}
+
+.createSpan {
+  text-transform: none;
+  font-size: initial;
+  color: #fff;
+  vertical-align: text-top;
+}
+
+.cardSpan {
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.entryTable {
+  margin: 10px auto;
+  border: 2px solid #fff;
+  padding: 15px;
+}
+
+.tableHead th {
+  border: none;
+}
+
+.tableData{
+  padding: 5px 0;
+  text-align: center;
+}
+
+th {
+  color: #fff;
+  text-align: left;
+  padding: 0 20px;
+  border-bottom: 1px solid #fff; 
+}
+
+tr {
+  text-align: left;
+}
+
+td{
+  text-align: left;
+  padding: 0 20px;
+}
+
+.addButton {
+  background: crimson;
+  border: none;
+  width: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  display: block;
+  color: antiquewhite;
+  height: 25px;
+  border-radius: 35px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+.modalBox {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  border: 2px solid #fff;
+  background: crimson !important;
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 10px;
+  width: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+  height: 50%;
+}
+
+.modalButtonCancel {
+  background: #ffd092;
+  border: 2px solid #fff;
+  font-size: 18px;
+  color: #dc143c;
+  border-radius: 35px;
+  margin: 0 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.modalButtonNext {
+  background: #ffd092;
+  border: 2px solid #fff;
+  font-size: 18px;
+  color: #dc143c;
+  border-radius: 35px;
+  margin: 0 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.modalHeading {
+  margin: 5px;
+  color: #fff;
+}
+
+.modalH3 {
+  border: 2px solid #fff;
+  display: -webkit-inline-box;
+  padding: 10px;
+  color: #dc143c;
+  border-radius: 35px;
+  background: #ffd092;
+}
+
+.giftCardImg {
+  width: 80px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.giftCardDesignBoxes {
+  margin-bottom: 20px;
+}
+
+.white {
+  color: #fff;
+}
+
+.dowloadCsvHolder {
+  margin-bottom: 15px;
+}
+
+.inputBoxes {
+  margin-bottom: 20px;
+}
+
+.vqInput {
+  border-radius: 35px;
+  border: 2px solid #000;
+  color: black;
+  background: #fff;
+  padding: 5px;
+  text-align: center;
+}
+
+.vqInput:hover {
+  outline: none;
+}
+
+.vqInput:focus {
+  outline: none;
+}
+
+.downloadCsvButton {
+  background: #ffd092;
+  border: 2px solid #fff;
+  font-size: 18px;
+  color: #dc143c;
+  border-radius: 35px;
+  margin: 0 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.mainHeading {
+  color: #dc143c;
+  text-transform: uppercase;
+  border: 3px solid crimson;
+  display: -webkit-inline-box;
+  padding: 10px;
+  background: #ffd092;
+}
+
+.searchBarHolder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filterBy, .sortBy, .searchBar {
+  margin: 25px;
+}
+
+.searchInput {
+  border-radius: 35px;
+  border: none;
+  color: black;
+  background: #fff;
+  padding: 5px;
+  text-align: center;
+}
+
+.searchInput:focus {
+  outline: none;
+}
+
+.icoNav {
+  cursor: pointer;
+  color: #fff;
+  padding: 0 5px;
+}
+
+select {
+  border-radius: 35px;
+  text-align: center;
+  background: none;
+  border: 2px solid white;
+  color: #fff;
+  cursor: pointer;
+}
+
+select:focus, select:active {
+  outline: none;
+}
+
+.entryNavigation {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 25px;
+}
+
+.searchIcon {
+  color: #fff;
+  cursor: pointer;
+  padding-left: 5px;
+  vertical-align: middle;
+  font-size: x-large;
+}
+
+::selection {
+  color: #fff;
+  background-color: crimson;
+}
+
+#Animate {
+  -webkit-animation-name: Animate; /* Safari 4.0 - 8.0 */
+  animation-name: Animate;
+  animation: Animate infinite 10s linear;
+}
+
+@keyframes Animate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+#AnimateTwo {
+  -webkit-animation-name: AnimateTwo; /* Safari 4.0 - 8.0 */
+  animation-name: AnimateTwo;
+  animation: AnimateTwo infinite 10s linear;
+}
+
+@keyframes AnimateTwo {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(-360deg); }
+}
+
+#AnimateThree {
+  -webkit-animation-name: AnimateThree; /* Safari 4.0 - 8.0 */
+  animation-name: AnimateThree;
+  animation: AnimateThree infinite 10s linear;
+}
+
+@keyframes AnimateThree {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
